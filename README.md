@@ -17,14 +17,12 @@ npm install
 # iOS only — install CocoaPods
 cd ios && bundle exec pod install && cd ..
 
-# Start Metro bundler
+# Start Metro bundler (then press 'a' for Android, 'i' for iOS)
 npm start
 
-# Run on Android
-npm run android
-
-# Run on iOS
-npm run ios
+# Alternatively, run directly:
+npm run android   # Android
+npm run ios       # iOS
 
 # Run tests
 npm test
